@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+.layout {
+    /* Estructura del layout */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        'titulo titulo titulo'
+        'menu menu menu '
+        'contenido contenido contenido'
+        'footer footer footer';
+}
+
+/* Items del Grid-layut */
+.header {
+    grid-area: titulo;
+    background-color: rgb(119, 192, 255);
+}
+
+.nav {
+    grid-area: menu;
+    background-color: rgb(255, 185, 119);
+}
+
+.principal {
+    grid-area: contenido;
+    background-color: rgb(223, 119, 255);
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(255, 119, 119);
+}

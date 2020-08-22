@@ -1,5 +1,13 @@
-body{
+* {
+    box-sizing: border-box;
+}
+
+body {
     margin: 0;
+}
+
+img {
+    width: 100%;
 }
 
 .layout {
@@ -27,7 +35,8 @@ body{
 
 .principal {
     grid-area: contenido;
-    background-color: rgb(223, 119, 255);
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
 }
 
 .footer1 {
@@ -75,4 +84,11 @@ body{
     font-weight: bold;
     background-color: white;
 
+
+    background-color: rgb(255, 119, 119);
+}
+
+.ppal {
+    text-align: center;
+    font-size: 4em;
 }
